@@ -1,0 +1,19 @@
+Spam SMS Detector
+ 
+ Spam: Spam SMS
+ Ham : Non Spam SMS
+
+Flow is as below:
+1) Data Cleaning 
+   - Text Preprocessing
+  
+WordCloud is created to see common words in Spam and Ham message
+ 
+
+2) Data Modeling:
+  - Logistic Regression is used
+  - Naive Bayes is used
+  
+To improvise the models, Stemming, TFIDF Vectorizer is applied on the cleaned data
+
+ 
